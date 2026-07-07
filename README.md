@@ -123,6 +123,10 @@ python .\src\events_rag_project\event_vector_builder.py
 python .\src\events_rag_project\event_chatbot_application.py
 ```
 
+## Schema
+
+![Schema](docs/schema_rag.png)
+
 
 # Tests
 - test_dev_stacks.py: permet de valider la compatibilité des versions des différentes librairies utilisées dans le projet
