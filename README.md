@@ -17,6 +17,10 @@ Développer un POC RAG fonctionnel sous forme de chatbot capable de fournir des 
 - Nettoyage des données et découpage des textes en vue de la vectorisation et indexation dans base de données FAISS.
 - Chatbot exploitant l'API MistralAI pour converser ainsi qu'utilisant les événnements indexés dans FAISS pour donner des réponses contextuelles.
 
+## Schema
+
+![Schema](docs/schema_generic.png)
+
 
 # Description des fichiers/dossiers
 
@@ -102,6 +106,10 @@ Réécriture du fichier .\data\events.csv avec les événnements récents
 python .\src\events_rag_project\agenda_importer.py
 ```
 
+## Schema
+
+![Schema](docs/schema_importer.png)
+
 
 # Regénération de l'index FAISS
 
@@ -115,6 +123,10 @@ Réécriture des fichiers:
 ```
 python .\src\events_rag_project\event_vector_builder.py
 ```
+
+## Schema
+
+![Schema](docs/schema_vector_builder.png)
 
 
 # Lancement du chatbot
