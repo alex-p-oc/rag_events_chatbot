@@ -43,6 +43,12 @@ project/
 ├── data/                               # Répertoire de données
 │   └── events.csv                      # Données openAgenda importées
 │
+├── docs/      
+│   ├── schema_importer.png
+│   ├── schema_rag.png
+│   ├── schema_generic.png
+│   └── schema_vector_builder.png
+│
 ├── vector_store/                       # Répertoire de base de données vectorielle
 │   ├── faiss_index/                    # Répertoire de l'index FAISS
 │   │   ├── index.faiss                 # Fichier contenant les index vectoriels
