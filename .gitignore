@@ -1,0 +1,9 @@
+.env
+.vscode/
+.pytest_cache
+logs/
+models/
+notebooks/
+vector_store/
+__pycache__/
+src/events_rag_project.egg-info/
